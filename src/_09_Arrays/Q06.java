@@ -39,7 +39,6 @@ public class Q06 {
                 max1 = arr[i];
             } else if (arr[i] > ikincimax1 && arr[i] < max1) {
                 ikincimax1 = arr[i];
-
             }
             if (arr[i] < min1) {
                 min1 = arr[i];

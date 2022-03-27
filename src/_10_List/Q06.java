@@ -17,6 +17,41 @@ public class Q06 {
          * OUTPUT : [1,2,3,4,5,6,7,8,9]
          */
 
+        /*
+        int[] arr = {1, 2, 2, 3, 1, 4, 2, 5, 6, 8, 7, 5, 9, 1};
+        List<Integer> tekrarsizList = new ArrayList<>();
+        for (Integer s:arr) {
+            if (!tekrarsizList.contains(s)) {//eleman yoksa add ile tekrarsız liste ekle eleman varsa  geç
+                tekrarsizList.add(s);
+            }
+        }
+        Collections.sort(tekrarsizList);//list elemanlrını NO sıraladık
+        int tekrarsizArray[]=new int[tekrarsizList.size()];//tekrarsizList.size() kadar lenght olan bos array atandı
+        for (int i = 0; i <tekrarsizList.size(); i++) {
+            tekrarsizArray[i]=tekrarsizList.get(i);
+
+        }
+        System.out.println(" ahanda sana her elemandan bir tane olan array ..."+Arrays.toString(tekrarsizArray));
+         */
+        //*****************************************
+
+        Integer[] arr1 = {1, 2, 2, 3, 1, 4, 2, 5, 6, 8, 7, 5, 9, 1};
+        List<Integer> arrayList = Arrays.asList(arr1);
+        List<Integer> tekrarsizList = new ArrayList<>();// tekrarsiz elemanlar atanicak
+
+        for (int i = 0; i < arrayList.size(); i++) {
+            if (!tekrarsizList.contains(arrayList.get(i))) {
+                //eleman "!" yoksa(demek) add ile liste ekle eleman varsa gec
+                tekrarsizList.add(arrayList.get(i));
+            }
+        }
+        int Arr2[] = new int[tekrarsizList.size()];// tekrasizlist.size kadar lengt olan bos arr. atama
+        for (int i = 0; i < tekrarsizList.size(); i++) {
+            Arr2[i] = tekrarsizList.get(i);// tekarsizdan geleni isleme
+        }
+        System.out.println(Arrays.toString(Arr2));
+
+
 
     }
 

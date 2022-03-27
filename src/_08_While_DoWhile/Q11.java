@@ -7,7 +7,6 @@ public class Q11 {
     /*   TASK :
            Girilen pozitif bir sayının tam kare olup olmadığını bulunuz,
            tamkare ise true  değilse false yazdırınız.
-
             Not: sqrt gibi fonksiyonları  kullanmayın.
 
             Example 1:
@@ -25,10 +24,21 @@ public class Q11 {
             Input: 14
             Output: false
 
-         */
     public static void main(String[] args) {
 
 
+        Scanner scan = new Scanner(System.in);
+        int sayi = scan.nextInt();
+        int i = 0;
+        do {
+            i< sayi/2+1
+                    i++;
+                    while (sayi=i*i);
 
-    }
+        }
+        System.out.println("tam sayi : ");
+
+
+     */
+
 }

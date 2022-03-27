@@ -18,10 +18,8 @@ public class Anagram {
 		String str2 =input.nextLine().toLowerCase().replace(" ","");
 		
 		System.out.println(isAnagram(str1, str2));
-		
 	}
 		public static boolean isAnagram(String str1,String str2) {
-		
 		//boolean isAnagram =false;
 		char [] arr1 = str1.replace(" ", "").toLowerCase().toCharArray();
 		char [] arr2 = str2.replace(" ", "").toLowerCase().toCharArray();
@@ -32,18 +30,40 @@ public class Anagram {
 		
 		if(str1.length()!=str2.length()) {
 			return false;
-	
 		}
 		for (int i = 0; i < arr2.length; i++) {
 			if(arr1[i]!=arr2[i]) {
 				return false;
 			}
-			
-				
-			
 		}
 		return true;
+		/*
+			Scanner scan = new Scanner(System.in);
+			System.out.print("Lütfen ilk kelimeyi giriniz:");
+			String str1=scan.next().toLowerCase(Locale.ROOT);
+			System.out.print("Lütfen ikinci kelimeyi giriniz:");
+			String str2=scan.next().toLowerCase(Locale.ROOT);
+			isAnagram(str1,str2);
+		}
+	private static void isAnagram(String str1, String str2) {
 
+		if(str1.length()!=str2.length()) System.out.println("Kelimeler anagram değildir.");
+		else{
+			String arr1[]=new String[str1.length()];
+			String arr2[]=new String[str2.length()];
+			for (int i = 0; i <str1.length(); i++) {
+				arr1[i]=str1.substring(i,i+1);
+			}
+			Arrays.sort(arr1);
+			for (int i = 0; i <str2.length(); i++) {
+				arr2[i]=str2.substring(i,i+1);
+			}
+			Arrays.sort(arr2);
+			if(Arrays.toString(arr1).equals(Arrays.toString(arr2))) System.out.println("Kelimeler anagramdır");
+			else System.out.println("Kelimeler anagram değildir.");
+		}
+
+		 */
 	}
 
 }

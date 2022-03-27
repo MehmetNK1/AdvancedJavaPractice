@@ -13,9 +13,7 @@ public class Q07 {
         int arr[][] = {{1, 2, -3}, {41, 55}, {-61, -17, 80}};
 
         System.out.println( maxDegerBul(arr));
-
     }
-
     private static int maxDegerBul(int[][] arr) {
         int max =arr[0][0];
 

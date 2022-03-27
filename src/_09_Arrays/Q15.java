@@ -23,6 +23,13 @@ public class Q15 {
 
 
         System.out.println("ilk ve son eleman ayni mi :" + ayniMi);
+
+        /*
+        int []arr={2,6,4,8,2,6,2};
+        if(arr[0]==arr[arr.length-1]) System.out.println("Dizinin ilk ve son elemanları eşittir.");
+        else System.out.println("Dizinin ilk ve son elemanları eşit değildir.");
+
+         */
     }
 
 }

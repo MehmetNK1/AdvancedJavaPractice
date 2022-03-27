@@ -18,6 +18,16 @@ public class Q08 {
          */
 
 
+        String[] isimler={"Umit","Emin","Kemal","Kerem","Taylan","Orhan","Sinan","Furkan","Ahmet","Ali"};
+        List<String> isimlerList = Arrays.asList(isimler);
+        String temp="";
+        temp=isimlerList.get(2);
+        isimlerList.set(2,isimlerList.get(7));
+        isimlerList.set(7,temp);
+        for (int i = 0; i <10 ; i++) {
+            isimler[i]=isimlerList.get(i);
+        }
+        System.out.println(Arrays.toString(isimler));
     }
 
 }

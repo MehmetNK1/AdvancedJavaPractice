@@ -26,6 +26,26 @@ public class Q14 {
         }
         System.out.println();
 
+        /*
+        String str="Congratulations";
+        String dizi[]=str.split("");
+        String dizi2[]=new String[dizi.length];
+        for (int i = 0; i < dizi.length; i++) {
+            if(dizi[i].contains("o")||dizi[i].contains("u")||dizi[i].contains("a")){
+               dizi[i]=dizi[i].replaceAll("a","i");
+               dizi[i]=dizi[i].replaceAll("o","i");
+               dizi[i]=dizi[i].replaceAll("u","i");
+            }
+            dizi2[dizi2.length-1-i]=dizi[i];
+        }
+        System.out.println(Arrays.toString(dizi2));
+        String strnew="";
+        for (int i = 0; i <dizi2.length; i++) {
+            strnew+=dizi2[i];
+        }
+        System.out.println(strnew);
+         */
+
 
     }
 

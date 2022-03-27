@@ -25,6 +25,15 @@ public class Q13 {
 
         System.out.println("Girdiginiz array'deki 3 ile bolunebilen eleman  sayisi :" + count);
 
+        /*
+         String str1="GayetBasarılı";
+        String str2[]=str1.split("t");
+        str2[0]="Coook";
+        System.out.println(Arrays.toString(str2));
+        str1=str2[0]+str2[1];
+        System.out.println(str1);
+         */
+
     }
 
 }

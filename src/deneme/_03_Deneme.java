@@ -10,6 +10,9 @@ public class _03_Deneme {
         2  3 = 2*2*2=8
        */
 
+        int a= 3;
+        int b=3;
+        System.out.println((int)Math.pow(a,b));
 
     }
 }

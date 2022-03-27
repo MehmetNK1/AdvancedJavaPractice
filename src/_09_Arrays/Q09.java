@@ -20,6 +20,15 @@ public class Q09 {
 
         System.out.println(Arrays.toString(arr)); //[4, 36, 16, 25, 64, 81]
 
+        /*
+        int dizi[]={2,6,4,5,8,9};
+        for (int i = 0; i <dizi.length ; i++) {
+            dizi[i]=dizi[i]*dizi[i];
+        }
+        System.out.println(Arrays.toString(dizi));
+
+         */
+
     }
 
 }
