@@ -15,14 +15,12 @@ public class Q12 {
         int sum = 0;
 
         for (int i = 0; i < arr.length; i++) {
-
             for (int j = 0; j < arr[i].length; j++) {
-                sum = sum + arr[i][j];
+                sum += arr[i][j];
             }
             arrToplam[i] = sum;
             sum = 0;
         }
-
         System.out.println(Arrays.toString(arrToplam));
     }
 }

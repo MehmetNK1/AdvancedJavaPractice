@@ -16,9 +16,7 @@ public class Q17 {
         for (int i = 0; i < arrCivata.length; i++) {
             System.out.println("arrCivata : " + arrCivata[i] + " = arrSomun :" + arrSomun[i]);
         }
-
     }
-
     public static int[] dizinYap(int[] arrA) {
         for (int i = 0; i < arrA.length; i++) {
             for (int j = 0; j < arrA.length; j++) {
@@ -30,7 +28,6 @@ public class Q17 {
             }
         }
         return arrA;
-
         /*
         public static void main(String[] args) {
             int somun[][]={{1,5},{2,5},{3,2},{4,20},{5,3}};// somun[genişlik][adet]
@@ -42,7 +39,6 @@ public class Q17 {
                     else System.out.println(i+1+" mm genişliğinde birbiriyle uyumlu "+somun[i][j]+" adet somun ve civata vardır.");
                 }
             }
-
          */
     }
 

@@ -28,6 +28,9 @@ public class Q18 {
             if (find == 1)
                 System.out.print(str.charAt(i) + " = " + count[str.charAt(i)] + ",  ");
         }
+
+
+
         System.out.println("\n   *** 2. yol ***   ");
         String[] arr = str.split("");
         Arrays.sort(arr);

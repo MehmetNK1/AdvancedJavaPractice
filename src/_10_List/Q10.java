@@ -11,14 +11,12 @@ public class Q10 {
      * ardışık array elemanların toplamını hesaplayan bir method create ediniz.
      */
 
-    /*
+
     public static void main(String[] args) {
 
         int arr[] = {3, 5, 1, 2, 7, 9, 2, 3, 5, 7};
         System.out.println(ardisikTopla(arr));
-
     }
-
     private static ArrayList<Integer> ardisikTopla(int[] arr) {
         ArrayList<Integer> toplananSayilarList = new ArrayList<>();
         int count = 0;
@@ -33,8 +31,8 @@ public class Q10 {
             toplananSayilarList.add(toplam);
         }
         return toplananSayilarList;
-     */
 
+/*
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
@@ -63,6 +61,9 @@ public class Q10 {
             }
         }
         return arr2;
+
+ */
+
     }
 
 }

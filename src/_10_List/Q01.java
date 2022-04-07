@@ -38,8 +38,10 @@ public class Q01 {
 
         /*
         ArrayList<String> isimler = new ArrayList<String>(Arrays.asList("Ali", "Veli", "Ayse", "Fatma", "Omer"));
+
             //asList()--> String olarak verilen ifadelerin hepsini ArrayList!'in içine atar.
             // Yani list oluşturur. tek tek add demek zorunda kalmayiz
+
         ArrayList<String> aOlmayanIsimler = new ArrayList<String>();
         //a olmayan ismlerin atanacagı bos list create edildi
 

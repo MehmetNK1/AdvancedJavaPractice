@@ -14,7 +14,7 @@ public class Q09 {
        output: maximumCounts occurring character is : a
         */
 
-        /*
+
         Scanner scan = new Scanner(System.in);
         System.out.print("agam bir metin gir : ");//hayat java ile cok kolay
         String arr[] = scan.nextLine().split("");
@@ -40,7 +40,10 @@ public class Q09 {
             sayac = 1;
         }
         System.out.println(" agam metinde encok aha bu harf var : "+enCokTekrarEden);
-         */
+
+
+
+        /*
         Scanner scan=new Scanner(System.in);
         System.out.print("Lütfen bir string ifade giriniz:");//
         String input=scan.nextLine();
@@ -93,6 +96,8 @@ public class Q09 {
             }
         }
         return tekrarsizList;
+
+         */
     }
 }
 

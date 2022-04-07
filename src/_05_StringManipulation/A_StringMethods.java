@@ -108,8 +108,9 @@ public class A_StringMethods {
         System.out.println("bir dizi kumesini degistirme>>>> " + kuruyemis.replace("yer", "cam")); //cam fistigi
         System.out.println("----------");
 
-        /** ReplaceFirst
-        * Replace ile aynı sadece ilk bulunanı değiştirir
+        /** replace()
+         * Metin icerisindeki karakter ya da bir parcasinin, istenilen karakter ya da metinle degistirilmesini saglar. Sonuc String'dir..
+         *
          */
         String txt = "Merhaba Dunya";
 

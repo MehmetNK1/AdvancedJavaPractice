@@ -26,13 +26,13 @@ public class Soru_Bankamatik {
                     bakıye-=cekilenMiktar;
                     System.out.println("bakıyenizin güncel hali : "+bakıye);
                 }
-                break;
+
             case 3:
                 System.out.print("yatıracagınız miktarı giriniz : ");
                 int yatırılanMiktar = scan.nextInt();
                 bakıye+=yatırılanMiktar;
                 System.out.println("bakıyenizin güncel hali : "+bakıye);
-                break;
+
             case 4:
                 System.out.println("cıkısınız yapılmıstır yine bekleriz :-)");
                 break;
