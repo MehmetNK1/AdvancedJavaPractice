@@ -11,24 +11,31 @@ public class Q01 {
         153 = (1*1*1) + (5*5*5) + (3*3*3) gibi
 
         */
-
         Scanner scan = new Scanner(System.in);
-        System.out.print("Armstrong kontrol icin bir sayi giriniz: ");
-        int n=scan.nextInt();
-        int k=n; // gecici bir deger icerisine orijinal degeri tutalim/ amac orjinal degerin degisimini onlemek
-        // bu yontem ile orginal deger uzerinde istedigimiz manipulasyonu yapabiliriz.
-        int temp=0;//digitlerin kupunu buraya dahil edecegiz
-        // temp is a variable that contains one single element of that array in your loop
-        while(n>0){
-            int a=n%10;
-            temp+=(a*a*a);
-            n=n/10;
+        System.out.println("Lutfen Armstrong oldugunu kontrol edeceginiz tamsayiyi yaziniz");
+        int sayi = scan.nextInt();
+
+        //12345
+        // once gerekli degiskenleri olusturalim
+        int kuplerToplami = 0;
+        int ilkDeger = sayi;
+        int rakam = 0;
+
+        while (sayi != 0) {
+            rakam = sayi % 10;
+            kuplerToplami += rakam * rakam * rakam;
+            sayi /= 10;
+
         }
-        //orjinal deger ile kiyaslayalim ve print edelim.
-        if(k==temp)
-            System.out.println(k + " armstrongdur");
-        else
-            System.out.println(k + "armstrin degildir");
+
+        // elimde kuplerToplami, ilkDeger , sayi=0 oldu
+
+        if (kuplerToplami == ilkDeger) {
+            System.out.println("Girdiginiz sayi Armstrong sayi");
+        } else System.out.println("Girdiginiz sayi Armstrong sayi degil");
+
+        scan.close();
+
     }
 
 }

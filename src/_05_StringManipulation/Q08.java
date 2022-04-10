@@ -20,7 +20,8 @@ public class Q08 {
         String str = scan.next();
 
         if (str.length() >= 3) {
-            System.out.println(str.substring(str.length() - 2) + str.substring(str.length() - 2) + str.substring(str.length() - 2));
+            System.out.println(str.substring(str.length() - 2)
+                    + str.substring(str.length() - 2) + str.substring(str.length() - 2));
         } else {
             System.out.println(str);
         }
