@@ -2,7 +2,7 @@ package JavaProjects.P09_kitapYonetimi;
 
 import java.util.Scanner;
 
-public class Kitapcı_Main {
+public class Kitapci_Main {
 
 	public static void main(String[] args) {
 

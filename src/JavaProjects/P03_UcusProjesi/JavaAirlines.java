@@ -24,28 +24,24 @@ public class JavaAirlines {
                     if (flytype == 1) {// ucus tek-cift yon kontrolu %20 indirim
                         System.out.println("   *****   ");
                         System.out.println("ucusunuz için bilet odemeniz : " + priceB * 0.7 + " $");
-
-
                     } else if (flytype == 2) {
                         System.out.println("   *****   ");
                         System.out.println("ucusunuz için bilet odemeniz : " + (priceB * 0.7 * 0.8) * 2 + " $");
                     } else System.out.println("hatalı veri giridiniz");
+
                 } else if (city.equals("C")) {
                     if (flytype == 1) {
                         System.out.println("   *****   ");
                         System.out.println("ucusunuz için bilet odemeniz : " + priceC * 0.7 + " $");
-
-
                     } else if (flytype == 2) {
                         System.out.println("   *****   ");
                         System.out.println("ucusunuz için bilet odemeniz : " + (priceC * 0.7 * 0.8) * 2 + " $");
                     } else System.out.println("hatalı veri giridiniz");
+
                 } else if (city.equals("D")) {
                     if (flytype == 1) {
                         System.out.println("   *****   ");
                         System.out.println("ucusunuz için bilet odemeniz : " + priceD * 0.7 + " $");
-
-
                     } else if (flytype == 2) {
                         System.out.println("   *****   ");
                         System.out.println("ucusunuz için bilet odemeniz : " + (priceD * 0.7 * 0.8) * 2 + " $");
@@ -142,6 +138,7 @@ public class JavaAirlines {
                         System.out.println("   *****   ");
                         System.out.println("ucusunuz için bilet odemeniz : " + (priceC * 0.8) * 2 + " $");
                     } else System.out.println("hatalı veri giridiniz");
+
                 } else if (city.equals("D")) {
                     if (flytype == 1) {
                         System.out.println("   *****   ");
