@@ -1,4 +1,11 @@
 /*
+anladiklarim
+1-obje uret
+2-crud (create read update delete)
+3-pojo class uret
+4-parent child iliskilerini belirle
+5-encaptulation edilecekleri belirle
+
 	 * basit bir depo projesi
 	 *
 	 * Calisan bir fabrikada uygulanan bir sistem olan depo uygulamasidir.
